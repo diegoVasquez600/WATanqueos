@@ -1,0 +1,5 @@
+﻿CREATE TABLE [dbo].[TIPO_COMBUSTIBLE]
+(
+	[idTipoCombustible] INT NOT NULL PRIMARY KEY IDENTITY(1,1), 
+    [tipoCombustible] VARCHAR(50) NOT NULL
+)

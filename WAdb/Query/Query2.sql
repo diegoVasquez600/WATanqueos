@@ -1,0 +1,1 @@
+﻿SELECT idIsla, SUM(Valor) FROM TANQUEOS GROUP BY idIsla ORDER BY SUM(Valor) DESC
